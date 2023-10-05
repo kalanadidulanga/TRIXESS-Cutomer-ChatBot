@@ -55,24 +55,24 @@
                             </div>
 
                             <div class="d-flex flex-column m-4">
-                                <label for="fname" class="fs-6">Last Name</label>
-                                <input type="text" id="fname" value="<?php echo $data["lname"];?>" class="fs-4 p-1 rounded-2 border-0">
+                                <label for="lname" class="fs-6">Last Name</label>
+                                <input type="text" id="lname" value="<?php echo $data["lname"];?>" class="fs-4 p-1 rounded-2 border-0">
                             </div>
                         </div>
                         <div class=" col-6">
                             <div class="d-flex flex-column m-4">
-                                <label for="fname" class="fs-6">Email</label>
-                                <input type="text" id="fname" value="<?php echo $data["email"];?>" class="fs-4 p-1 rounded-2 border-0">
+                                <label for="email" class="fs-6">Email</label>
+                                <input type="text" id="email" value="<?php echo $data["email"];?>" class="fs-4 p-1 rounded-2 border-0">
                             </div>
 
                             <div class="d-flex flex-column m-4">
-                                <label for="fname" class="fs-6">Password</label>
-                                <input type="text" id="fname" value="<?php echo $data["password"];?>" class="fs-4 p-1 rounded-2 border-0">
+                                <label for="password" class="fs-6">Password</label>
+                                <input type="text" id="password" value="<?php echo $data["password"];?>" class="fs-4 p-1 rounded-2 border-0">
                             </div>
                         </div>
                     </div>
 
-                    <button class="btn btn-info fw-bold fs-3 col-3 border-0 mb-3 mt-5">UPDATE INFO</button>
+                    <button class="btn btn-info fw-bold fs-3 col-3 border-0 mb-3 mt-5" onclick="profileUpdate();">UPDATE INFO</button>
 
                 </div>
 
@@ -94,6 +94,7 @@
 
     ?>
 
+<script src="script.js"></script>
 </body>
 
 </html>

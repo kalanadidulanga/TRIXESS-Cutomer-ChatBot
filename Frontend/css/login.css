@@ -23,11 +23,15 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    background: #04364A;
     font-size: 1.4rem;
     /* line-height: 1.5; */
     z-index: 0;
     color: #FFF;
+}
+
+.text01{
+    font-size: 14px;
 }
 
 .loginBody {

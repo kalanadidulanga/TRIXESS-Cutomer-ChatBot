@@ -40,10 +40,7 @@
 
 
             <button class="btn btn-info fw-bold fs-3 col-12 border-0 mb-3 mt-5" onclick="signUp();">CONTINUE</button>
-            <!-- <button class="g-3 d-inline-flex align-items-center justify-content-center col-12 rounded-3 fs-2 p-2 mb-5">
-                <img src="images/loginImages/Google_ G _Logo 1.svg" alt="googleImage" class=" bg-transparent">
-                <div class="btnTextGoogle">CONTINUTE WITH GOOGLE</div>
-            </button> -->
+            
             <div class="text01 pb-3">Already have a Account? <a href="login.php">Login Up With Trixess</a></div>
         </div>
     </div>

@@ -22,7 +22,7 @@
         <?php include "connection.php"; ?>
         <nav class="navbar homeBody fixed-top">
             <div class="container-fluid">
-                
+
                 <button class="navbar-toggler navButton border-white text-white" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
                                 <img src="images/signup/java02.jpg" alt="">
                             </div>
                             <div class="text-white">
-                            <?php echo $data["fname"] . ' ' . $data["lname"]; ?>
+                                <?php echo $data["fname"] . ' ' . $data["lname"]; ?>
                             </div>
                         </div>
 
@@ -132,7 +132,7 @@
 
     } else {
         ?>
-       h
+        h
         <?php
     }
 

@@ -14,7 +14,7 @@
 
     <div class="loginBody d-flex align-items-center justify-content-center">
         <div class="d-flex justify-content-center align-items-center loginContainer col-12 col-lg-5 flex-column p-3">
-            <div class="position-absolute top-0 start-0 mt-5 ms-5" type="button" onclick="document.location='signup.html'">< BACK</div>
+            <div class="position-absolute top-0 start-0 mt-5 ms-5" type="button" onclick="document.location='signup.php'">< BACK</div>
             <div class="headerText">TRIXESS</div>
             <div class="headerSubText mb-4">BEYOND THE FUTURE OF THE WORLD</div>
             <div class="fs-5 mb-4 mt-5">Let’s see how You Actually look</div>
@@ -26,18 +26,19 @@
             </div>
 
 
-            <button class="btn btn-info fw-bold fs-5 col-12 col-lg-5 border-0 mb-3 mt-5">CREATE ACCOUNT</button>
+            <button class="btn btn-info fw-bold fs-5 col-12 col-lg-5 border-0 mb-3 mt-5" onclick="signUp();">CREATE ACCOUNT</button>
             
         </div>
     </div>
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

@@ -18,6 +18,7 @@
             <div class="headerText pt-3 mt-3">TRIXESS</div>
             <div class="headerSubText mb-4">BEYOND THE FUTURE OF THE WORLD</div>
             <div class="fs-3 mb-4 mt-1">Tell us Something About You!</div>
+            <span class="Text-white" id="msg2"></span>
 
 
             <div class="col-12 d-flex flex-column mb-3">
@@ -38,16 +39,16 @@
             </div>
 
 
-            <button class="btn btn-info fw-bold fs-3 col-12 border-0 mb-3 mt-5" onclick="document.location='signup2.html'">CONTINUE</button>
+            <button class="btn btn-info fw-bold fs-3 col-12 border-0 mb-3 mt-5" onclick="signUp();">CONTINUE</button>
             <!-- <button class="g-3 d-inline-flex align-items-center justify-content-center col-12 rounded-3 fs-2 p-2 mb-5">
                 <img src="images/loginImages/Google_ G _Logo 1.svg" alt="googleImage" class=" bg-transparent">
                 <div class="btnTextGoogle">CONTINUTE WITH GOOGLE</div>
             </button> -->
-            <div class="text01 pb-3">Already have a Account? <a href="login.html">Login Up With Trixess</a></div>
+            <div class="text01 pb-3">Already have a Account? <a href="login.php">Login Up With Trixess</a></div>
         </div>
     </div>
 
-
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

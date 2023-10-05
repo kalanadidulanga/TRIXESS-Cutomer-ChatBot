@@ -66,12 +66,30 @@ body {
     overflow-x: hidden;
 }
 
-.bin img{
+.bin img {
     object-fit: cover;
     width: 100%;
 }
 
-.bin{
-    width: 30px;
+.bin {
+    width: 20px;
     overflow: hidden;
+}
+
+.btn {
+    background: #64CCC5;
+}
+
+.homeBody1 {
+    margin-top: 6rem;
+}
+
+.question {
+    border-radius: 7px;
+    background: #176B87;
+}
+
+.questioninput {
+    border-radius: 7px;
+    background: #176B87;
 }

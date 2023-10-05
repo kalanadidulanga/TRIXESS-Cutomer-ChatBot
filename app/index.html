@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Support Chatbot</title>
+</head>
+<body>
+    <h1>Customer Support Chatbot</h1>
+    <div id="chatbox">
+        <!-- Chat messages go here -->
+    </div>
+    <input type="text" id="userInput" placeholder="Type your message..." onkeydown="sendMessage(event)">
+</body>
+<script>
+function sendMessage(event) {
+    if (event.key === 'Enter') {
+        var userInput = document.getElementById("userInput").value;
+        addUserMessage(userInput);
+        getBotResponse(userInput);
+    }
+}
+
+function addUserMessage(message) {
+    var chatbox = document.getElementById("chatbox");
+    chatbox.innerHTML += "<p><strong>You:</strong> " + message + "</p>";
+    document.getElementById("userInput").value = "";
+}
+
+function getBotResponse(userInput) {
+    // Send user input to the server (chatbot.php) using AJAX
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "chatbot.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var response = xhr.responseText;
+            addBotMessage(response);
+        }
+    };
+    xhr.send("userInput=" + userInput);
+}
+
+function addBotMessage(message) {
+    var chatbox = document.getElementById("chatbox");
+    chatbox.innerHTML += "<p><strong>Chatbot:</strong> " + message + "</p>";
+}
+</script>
+</html>

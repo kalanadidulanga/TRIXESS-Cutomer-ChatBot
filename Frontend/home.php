@@ -8,6 +8,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Customer Support ChatBot | TRIXESS</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
                     </div>
                     <div class="offcanvas-body d-flex flex-column">
                         <div class="offcanvaBody d-flex justify-content-center align-items-center my-3">
-                            <div class="offcanvasimg me-3 rounded-circle" onclick="window.location='profileSetting.php';">
+                            <div class="offcanvasimg me-3 rounded-circle"  style=cursor:pointer onclick="window.location='profileSetting.php';">
                                 <img src="images/signup/java02.jpg" alt="">
                             </div>
                             <div class="text-white">
@@ -130,11 +131,13 @@
 
         <?php
 
-    } else {
-        ?>
-        h
-        <?php
-    }
+
+} else {
+    header("Location: login.php");
+    exit;
+}
+
+
 
     ?>
 
@@ -145,6 +148,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

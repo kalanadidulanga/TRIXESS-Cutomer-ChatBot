@@ -29,3 +29,28 @@ function signUp() {
     request.send(form);
 
 }
+
+function login() {
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+  
+    var f = new FormData();
+    f.append("e", email.value);
+    f.append("p", password.value);
+  
+    var r = new XMLHttpRequest();
+  
+    r.onreadystatechange = function () {
+      if (r.readyState == 4) {
+        var t = r.responseText;
+        if (t == "success") {
+          window.location = "home.php";
+        } else {
+          document.getElementById("msg2").innerHTML = t;
+        }
+      }
+    };
+  
+    r.open("POST", "loginProcess.php", true);
+    r.send(f);
+  }

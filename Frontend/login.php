@@ -17,6 +17,7 @@
             <div class="headerText pt-3">TRIXESS</div>
             <div class="headerSubText mb-4">BEYOND THE FUTURE OF THE WORLD</div>
             <div class="fs-3 mb-4 mt-1">Login to Your Account</div>
+            <span class="text-danger fs-6" id="msg2" style="text-align: start;"></span>
             <div class="col-12 d-flex flex-column mb-3">
                 <label for="email">Email</label>
                 <input type="email" id="email" class="fs-3 p-1 rounded-2 border-0">
@@ -25,12 +26,12 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" class="fs-3 p-1 rounded-2 border-0">
             </div>
-            <button class="btn btn-info fw-bold fs-3 col-12 border-0 mb-3">LOGIN</button>
+            <button class="btn btn-info fw-bold fs-3 col-12 border-0 mb-3" onclick="login();">LOGIN</button>
             <button class="g-3 d-inline-flex align-items-center justify-content-center col-12 rounded-3 fs-2 p-2 mb-5">
                 <img src="images/loginImages/Google_ G _Logo 1.svg" alt="googleImage" class=" bg-transparent">
                 <div class="btnTextGoogle">CONTINUTE WITH GOOGLE</div>
             </button>
-            <div class="text01 pb-3">Don’t have a Account? <a href="signup.html">Sign Up With Trixess</a></div>
+            <div class="text01 pb-3">Don’t have a Account? <a href="signup.php">Sign Up With Trixess</a></div>
         </div>
     </div>
 
@@ -41,6 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+html {
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #04364A;
+    font-size: 1.4rem;
+    /* line-height: 1.5; */
+    z-index: 0;
+    color: #FFF;
+}
+
+.navButton {
+    color: #FFF;
+}
+
+.navButton span {
+    color: #FFF;
+}
+
+.offcanvas-body {
+    background: #176B87;
+}
+
+.offcanvas-header {
+    background: #176B87;
+}
+
+.offcanvasimg {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.offcanvasimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nav-item {
+    border-radius: 7px;
+    background: #04364A;
+    overflow-x: hidden;
+}
+
+.bin img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.bin {
+    width: 20px;
+    overflow: hidden;
+}
+
+.btn {
+    background: #64CCC5;
+}
+
+.homeBody1 {
+    margin-top: 6rem;
+}
+
+.question {
+    border-radius: 7px;
+    background: #176B87;
+}
+
+.questioninput {
+    border-radius: 7px;
+    background: #176B87;
+}

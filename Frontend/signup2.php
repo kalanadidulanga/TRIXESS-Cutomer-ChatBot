@@ -58,7 +58,7 @@
 
 
                     <button class="btn btn-info fw-bold fs-5 col-12 col-lg-5 border-0 mb-3 mt-5"
-                        onclick="uploadIMG();">CREATE ACCOUNT</button>
+                        onclick="window.location='home.php';">CREATE ACCOUNT</button>
 
             </div>
         </div>

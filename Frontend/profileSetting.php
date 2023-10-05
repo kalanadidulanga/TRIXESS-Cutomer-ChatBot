@@ -40,7 +40,7 @@
 
                 <div class="d-flex justify-content-center align-items-center flex-column">
                     <div class="circle d-flex">
-                        <img src="image location" alt="" class="rounded-circle z-1">
+                        <img src="" alt="" class="rounded-circle z-1">
 
                     </div>
                     <div class="m-2">

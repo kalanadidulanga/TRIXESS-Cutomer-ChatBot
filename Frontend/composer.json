@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nlpcloud/nlpcloud-client": "8123fee36ac067993c74fad051851cf675ff921d"
+    }
+}

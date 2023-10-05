@@ -98,7 +98,7 @@ function profileUpdate() {
     if (request.readyState == 4) {
       var text = request.responseText;
       if (text == "success") {
-        window.location = "home.php";
+        window.location.reload();
       } else {
         alert("Something went wrong");
       }

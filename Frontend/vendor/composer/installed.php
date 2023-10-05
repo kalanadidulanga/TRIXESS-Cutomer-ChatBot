@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9944c8246e547feb345deef30662489fb1f360ba',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9944c8246e547feb345deef30662489fb1f360ba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'nategood/httpful' => array(
+            'pretty_version' => '0.3.2',
+            'version' => '0.3.2.0',
+            'reference' => '0cded3ea97ba905600de9ceb9ef13f3ab681587c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nategood/httpful',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'nlpcloud/nlpcloud-client' => array(
+            'pretty_version' => 'v1.0.39',
+            'version' => '1.0.39.0',
+            'reference' => '087a33bb3d928c0bb3073d09e83b572e9393f558',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nlpcloud/nlpcloud-client',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

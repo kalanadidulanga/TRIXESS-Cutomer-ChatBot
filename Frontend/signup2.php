@@ -8,6 +8,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Signup window02 | TRIXESS</title>
     <link rel="stylesheet" href="css/signup.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
 </head>
 
 <body>

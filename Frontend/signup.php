@@ -9,6 +9,8 @@
     <title>Signup | TRIXESS</title>
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
 </head>
 
 <body>

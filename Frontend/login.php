@@ -8,6 +8,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Login | TRIXESS</title>
     <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
 </head>
 
 <body>

@@ -10,6 +10,8 @@
     <title>Profile Setting | TRIXESS</title>
     <link rel="stylesheet" href="css/profileSetting.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
 </head>
 
 <body>

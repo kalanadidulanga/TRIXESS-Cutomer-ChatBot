@@ -54,3 +54,19 @@ function login() {
     r.open("POST", "loginProcess.php", true);
     r.send(f);
   }
+
+  function signout() {
+    var r = new XMLHttpRequest();
+  
+    r.onreadystatechange = function () {
+      if (r.readyState == 4) {
+        var t = r.responseText;
+        if (t == "success") {
+          window.location="login.php";
+        }
+      }
+    };
+  
+    r.open("GET", "signoutprocess.php", true);
+    r.send();
+  }

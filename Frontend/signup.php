@@ -18,7 +18,7 @@
             <div class="headerText pt-3 mt-3">TRIXESS</div>
             <div class="headerSubText mb-4">BEYOND THE FUTURE OF THE WORLD</div>
             <div class="fs-3 mb-4 mt-1">Tell us Something About You!</div>
-            <span class="Text-white" id="msg2"></span>
+            <span class="text-danger fs-6" id="msg2"></span>
 
 
             <div class="col-12 d-flex flex-column mb-3">

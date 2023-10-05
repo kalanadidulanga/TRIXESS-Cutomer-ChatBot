@@ -1,11 +1,10 @@
 <?php
 
+
 require __DIR__ . '/vendor/autoload.php';
 
-
 use Google\Cloud\Language\V1\Document;
-use Google\Cloud\Language\V1\LanguageServiceClient;
-
+use Google\Cloud\Language\V1\Client\LanguageServiceClient;
 
 $keyFilePath = 'C:\\xampp\\htdocs\\TRIXESS-Cutomer-ChatBot\\Frontend\\composer.json';
 

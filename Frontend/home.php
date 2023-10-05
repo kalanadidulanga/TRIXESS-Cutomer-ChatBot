@@ -116,9 +116,11 @@
                 reiciendis placeat vitae nobis iure qui.
             </div>
 
+            
+
         </div>
 
-        <div class="container fixed-bottom mb-3 d-flex z-0">
+        <div class="container fixed-bottom pb-3 d-flex z-0 bottum">
             <div class="col-12 mx-auto questioninput d-flex justify-content-center align-items-center p-2 my-3">
 
                 <input type="text" class="bg-transparent border-0 col-11 text-white text-start ps-2"

@@ -31,12 +31,10 @@ body {
 }
 
 .navButton {
-    color: #FFF;
+    background-color: #FFF;
 }
 
-.navButton span {
-    color: #FFF;
-}
+
 
 .offcanvas-body {
     background: #176B87;
@@ -44,6 +42,10 @@ body {
 
 .offcanvas-header {
     background: #176B87;
+}
+
+.navbar{
+    background-color: #04364A;
 }
 
 .offcanvasimg {
@@ -82,6 +84,7 @@ body {
 
 .homeBody1 {
     margin-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 .question {
@@ -92,4 +95,14 @@ body {
 .questioninput {
     border-radius: 7px;
     background: #176B87;
+}
+
+.bottum{
+    background-color: #04364A;
+}
+
+
+.navbar-toggler-icon{
+    background-color: #FFF;
+    color: #FFF;
 }

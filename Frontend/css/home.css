@@ -42,20 +42,36 @@ body {
     background: #176B87;
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background: #176B87;
 }
 
-.offcanvasimg{
+.offcanvasimg {
     width: 50px;
     height: 50px;
     text-align: center;
     overflow: hidden;
 }
 
-.offcanvasimg img{
+.offcanvasimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
+}
+
+.nav-item {
+    border-radius: 7px;
+    background: #04364A;
+    overflow-x: hidden;
+}
+
+.bin img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.bin{
+    width: 30px;
+    overflow: hidden;
 }

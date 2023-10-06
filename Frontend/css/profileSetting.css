@@ -1,0 +1,30 @@
+.profileheading {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: #176B87;
+    border: none;
+    margin-top:20px;
+}
+
+.circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+    border: none;
+}
+
+.backbtn{
+    margin-top: 20PX;
+}

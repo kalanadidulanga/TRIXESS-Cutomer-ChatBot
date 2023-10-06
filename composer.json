@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/cloud-translate": "^1.15",
+        "google/cloud-language": "^0.31.2"
+    }
+}

@@ -1,5 +1,6 @@
 {
     "require": {
-        "nlpcloud/nlpcloud-client": "8123fee36ac067993c74fad051851cf675ff921d"
+        "nlpcloud/nlpcloud-client": "8123fee36ac067993c74fad051851cf675ff921d",
+        "pj8912/php-bard-api": "^0.1.0"
     }
 }
